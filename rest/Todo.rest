@@ -1,0 +1,29 @@
+GET http://localhost:3000/Todo HTTP/1.1
+
+###
+GET http://localhost:3000/Todo/636f81b33bd8271982149677
+
+###
+POST http://localhost:3000/Todo  HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Design a TodoApp",
+    "description": "Using mongodb with nodejs, Zuri request that we build TodoApp",
+    "status": "Done and dusted",
+    "Author": "Janet"
+}
+
+###
+PUT http://localhost:3000/Todo/636f81b33bd8271982149677
+Content-Type: application/json
+
+{
+    "title": "Build a ChatApp",
+    "description": "with the backend knowledge acquired, build a simple ChatApp",
+    "status": "pending",
+    "Author": "Moromoke"
+}
+
+###
+DELETE http://localhost:3000/Todo/636f81b33bd8271982149677

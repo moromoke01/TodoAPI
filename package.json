@@ -1,0 +1,29 @@
+{
+  "name": "todoapi",
+  "version": "1.0.0",
+  "description": "creating a nodejs server to perform a ToDo task",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moromoke01/TodoAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moromoke01/TodoAPI/issues"
+  },
+  "homepage": "https://github.com/moromoke01/TodoAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
